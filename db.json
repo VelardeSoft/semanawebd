@@ -2,102 +2,252 @@
   "users": [
     {
       "id": "1",
-      "name": "Néstor Velarde",
+      "name": "Bryan Velarde",
       "phone": "987654321",
       "dni": "87654321",
       "email": "velarde@gmail.com",
-      "password": "654321",
-      "photo": "https://i.ibb.co/8rdm6xC/Logo-Movi-Tech.png",
+      "password": "123456",
+      "photo": "https://randomuser.me/api/portraits/men/85.jpg",
       "address": "Av. Metropolitana, Lima",
       "role_id": "3"
-    }
-  ],
-  "user_roles": [
-    {
-      "id": "1",
-      "role": "Administrador"
     },
     {
       "id": "2",
-      "role": "Usuario"
+      "name": "Raul Torres",
+      "phone": "912345678",
+      "dni": "45678912",
+      "email": "raul@gmail.com",
+      "password": "123456",
+      "photo": "https://randomuser.me/api/portraits/women/44.jpg",
+      "address": "Jr. Las Flores, Arequipa",
+      "role_id": "2"
     },
     {
       "id": "3",
-      "role": "Universitario"
+      "name": "Carlos Paredes",
+      "phone": "923456789",
+      "dni": "12345678",
+      "email": "carlos@gmail.com",
+      "password": "123456",
+      "photo": "https://randomuser.me/api/portraits/men/46.jpg",
+      "address": "Calle Sol, Cusco",
+      "role_id": "1"
     }
+  ],
+  "user_roles": [
+    { "id": "1", "role": "Administrador" },
+    { "id": "2", "role": "Usuario" },
+    { "id": "3", "role": "Universitario" }
   ],
   "scooters": [
     {
       "id": "1",
       "name": "Scooter A",
-      "brandId": "1",
-      "modelId": "1",
-      "description": "Scooter Xiaomi M365 Pro",
-      "districtId": "1",
-      "image": "https://www.powerplanetonline.com/cdnassets/patinete_xiaomi_mi_electric_scooter_m365_pro_negro_01_l.jpg"
+      "brandId": "2",
+      "modelId": "2",
+      "description": "El Scooter A combina potencia y ligereza, con autonomía de hasta 25 km y sistema de frenos dobles. Ideal para recorridos urbanos diarios con máxima comodidad.",
+      "districtId": "3",
+      "image": "https://www.electrickicks.com.au/cdn/shop/files/Segway-Ninebot-MAX-G2-side.jpg?v=1730250007"
     },
     {
       "id": "2",
       "name": "Scooter B",
       "brandId": "2",
+      "modelId": "1",
+      "description": "Scooter B ofrece un motor de 350 W, suspensión delantera y trasera, y neumáticos antiflat. Perfecto para trayectos por avenidas amplias o ciclovías anchas.",
+      "districtId": "2",
+      "image": "https://www.electrickicks.com.au/cdn/shop/files/Segway-Ninebot-MAX-G2-side.jpg?v=1730250007"
+    },
+    {
+      "id": "3",
+      "name": "Scooter C",
+      "brandId": "1",
+      "modelId": "1",
+      "description": "Con un diseño plegable robusto, el Scooter C es fácil de transportar en transporte público. Cuenta con luces LED delanteras y traseras para mayor seguridad nocturna.",
+      "districtId": "2",
+      "image": "https://www.electrickicks.com.au/cdn/shop/files/Segway-Ninebot-MAX-G2-side.jpg?v=1730250007"
+    },
+    {
+      "id": "4",
+      "name": "Scooter D",
+      "brandId": "2",
       "modelId": "2",
-      "description": "Scooter Xiome",
+      "description": "El Scooter D integra control de crucero, pantalla LCD multifunción y batería extraíble para carga rápida. Su suspensión ajustable brinda confort en calles irregulares.",
       "districtId": "1",
+      "image": "https://www.electrickicks.com.au/cdn/shop/files/Segway-Ninebot-MAX-G2-side.jpg?v=1730250007"
+    },
+    {
+      "id": "5",
+      "name": "Scooter E",
+      "brandId": "2",
+      "modelId": "1",
+      "description": "Scooter E destaca por su acelerador suave y cuadro de aluminio aeronáutico. Su manillar ergonómico y freno regenerativo reducen el esfuerzo físico en largas distancias.",
+      "districtId": "3",
+      "image": "https://www.electrickicks.com.au/cdn/shop/files/Segway-Ninebot-MAX-G2-side.jpg?v=1730250007"
+    },
+    {
+      "id": "6",
+      "name": "Scooter F",
+      "brandId": "2",
+      "modelId": "2",
+      "description": "Equipado con neumáticos inflables de 10 pulgadas y motor sin escobillas, el Scooter F ofrece estabilidad y aceleración progresiva. Excelente para usuarios principiantes.",
+      "districtId": "2",
+      "image": "https://www.electrickicks.com.au/cdn/shop/files/Segway-Ninebot-MAX-G2-side.jpg?v=1730250007"
+    },
+    {
+      "id": "7",
+      "name": "Scooter G",
+      "brandId": "1",
+      "modelId": "2",
+      "description": "El Scooter G incorpora freno electrónico y amortiguadores de doble cámara. Su autonomía de 30 km lo hace ideal para explorar la ciudad sin preocupaciones de carga.",
+      "districtId": "3",
+      "image": "https://www.electrickicks.com.au/cdn/shop/files/Segway-Ninebot-MAX-G2-side.jpg?v=1730250007"
+    },
+    {
+      "id": "8",
+      "name": "Scooter H",
+      "brandId": "1",
+      "modelId": "2",
+      "description": "Con un rango de velocidad de hasta 25 km/h, el Scooter H es rápido y eficiente. Su tablero digital muestra nivel de batería y velocidad en tiempo real.",
+      "districtId": "3",
+      "image": "https://www.electrickicks.com.au/cdn/shop/files/Segway-Ninebot-MAX-G2-side.jpg?v=1730250007"
+    },
+    {
+      "id": "9",
+      "name": "Scooter I",
+      "brandId": "1",
+      "modelId": "2",
+      "description": "Scooter I viene con guardabarros integrados y plataforma antideslizante. Su estructura resistente al agua permite trayectos seguros en días lluviosos ligeros.",
+      "districtId": "3",
+      "image": "https://www.electrickicks.com.au/cdn/shop/files/Segway-Ninebot-MAX-G2-side.jpg?v=1730250007"
+    },
+    {
+      "id": "10",
+      "name": "Scooter J",
+      "brandId": "2",
+      "modelId": "1",
+      "description": "El Scooter J destaca por su motor dual y luces reflectantes laterales. Sus frenos de disco trasero y delantero aseguran una detención rápida y segura.",
+      "districtId": "2",
+      "image": "https://www.electrickicks.com.au/cdn/shop/files/Segway-Ninebot-MAX-G2-side.jpg?v=1730250007"
+    },
+    {
+      "id": "11",
+      "name": "Scooter K",
+      "brandId": "1",
+      "modelId": "1",
+      "description": "Scooter K combina ligereza y resistencia, con chasis de aleación de magnesio. Su conectividad Bluetooth permite monitorizar estadísticas desde la app móvil.",
+      "districtId": "3",
+      "image": "https://www.electrickicks.com.au/cdn/shop/files/Segway-Ninebot-MAX-G2-side.jpg?v=1730250007"
+    },
+    {
+      "id": "12",
+      "name": "Scooter L",
+      "brandId": "2",
+      "modelId": "2",
+      "description": "Diseñado para desplazamientos rápidos, el Scooter L acelera en menos de 4 segundos a 20 km/h. Su batería inteligente optimiza ciclos de carga prolongada.",
+      "districtId": "1",
+      "image": "https://www.electrickicks.com.au/cdn/shop/files/Segway-Ninebot-MAX-G2-side.jpg?v=1730250007"
+    },
+    {
+      "id": "13",
+      "name": "Scooter M",
+      "brandId": "1",
+      "modelId": "2",
+      "description": "El Scooter M integra señal de giro LED y alarma antirrobo. Perfecto para trayectos nocturnos en zonas concurridas, garantizando visibilidad y seguridad.",
+      "districtId": "2",
+      "image": "https://www.electrickicks.com.au/cdn/shop/files/Segway-Ninebot-MAX-G2-side.jpg?v=1730250007"
+    },
+    {
+      "id": "14",
+      "name": "Scooter N",
+      "brandId": "2",
+      "modelId": "2",
+      "description": "Scooter N ofrece control de velocidad por app y geolocalización. Su sistema de recuperación de energía en frenadas extiende la autonomía final en cada viaje.",
+      "districtId": "2",
+      "image": "https://www.electrickicks.com.au/cdn/shop/files/Segway-Ninebot-MAX-G2-side.jpg?v=1730250007"
+    },
+    {
+      "id": "15",
+      "name": "Scooter O",
+      "brandId": "2",
+      "modelId": "2",
+      "description": "Con diseño minimalista y líneas angulares, el Scooter O es estéticamente atractivo. Su base ancha proporciona estabilidad extra para conductores de todos los niveles.",
+      "districtId": "1",
+      "image": "https://www.electrickicks.com.au/cdn/shop/files/Segway-Ninebot-MAX-G2-side.jpg?v=1730250007"
+    },
+    {
+      "id": "16",
+      "name": "Scooter P",
+      "brandId": "1",
+      "modelId": "1",
+      "description": "El Scooter P integra faros halógenos y luces inteligentes. Su chasis reforzado aguanta cargas de hasta 120 kg sin comprometer el rendimiento.",
+      "districtId": "2",
+      "image": "https://www.electrickicks.com.au/cdn/shop/files/Segway-Ninebot-MAX-G2-side.jpg?v=1730250007"
+    },
+    {
+      "id": "17",
+      "name": "Scooter Q",
+      "brandId": "2",
+      "modelId": "2",
+      "description": "Scooter Q destaca por su sistema de plegado rápido en tres pasos. Ideal para usuarios que necesitan combinar desplazamiento y transporte público.",
+      "districtId": "2",
+      "image": "https://www.electrickicks.com.au/cdn/shop/files/Segway-Ninebot-MAX-G2-side.jpg?v=1730250007"
+    },
+    {
+      "id": "18",
+      "name": "Scooter R",
+      "brandId": "1",
+      "modelId": "2",
+      "description": "Equipado con controlador de torque y acelerómetro integrado, el Scooter R ajusta automáticamente la respuesta del motor según el terreno.",
+      "districtId": "1",
+      "image": "https://www.electrickicks.com.au/cdn/shop/files/Segway-Ninebot-MAX-G2-side.jpg?v=1730250007"
+    },
+    {
+      "id": "19",
+      "name": "Scooter S",
+      "brandId": "1",
+      "modelId": "1",
+      "description": "El Scooter S incorpora amortiguadores delanteros hidráulicos. Su sistema de gestión de batería inteligente prolonga la vida útil de cada ciclo de carga.",
+      "districtId": "1",
+      "image": "https://www.electrickicks.com.au/cdn/shop/files/Segway-Ninebot-MAX-G2-side.jpg?v=1730250007"
+    },
+    {
+      "id": "20",
+      "name": "Scooter T",
+      "brandId": "1",
+      "modelId": "2",
+      "description": "Con plataforma antideslizante extra ancha y luces de freno automáticas, el Scooter T brinda una experiencia más segura y cómoda en cada viaje.",
+      "districtId": "3",
       "image": "https://www.electrickicks.com.au/cdn/shop/files/Segway-Ninebot-MAX-G2-side.jpg?v=1730250007"
     }
   ],
   "models": [
-    {
-      "id": "1",
-      "name": "M365"
-    },
-    {
-      "id": "2",
-      "name": "Ninebot"
-    }
+    { "id": "1", "name": "M365" },
+    { "id": "2", "name": "Ninebot" }
   ],
   "districts": [
-    {
-      "id": "1",
-      "name": "Miraflores"
-    }
+    { "id": "1", "name": "Miraflores" },
+    { "id": "2", "name": "San Isidro" },
+    { "id": "3", "name": "Surco" }
   ],
   "brands": [
-    {
-      "id": "1",
-      "name": "Xiaomi"
-    },
-    {
-      "id": "2",
-      "name": "Segway"
-    }
+    { "id": "1", "name": "Xiaomi" },
+    { "id": "2", "name": "Segway" }
   ],
   "suscriptions": [
     {
       "id": "1",
       "number": "9876543217654321",
-      "date": "76543213",
+      "date": "2025-06-17",
       "cvv": "432",
       "typeId": "1",
       "userId": "1"
     }
   ],
   "type_suscription": [
-    {
-      "id": "1",
-      "name": "Plan Semanal",
-      "costo": "29.90"
-    },
-    {
-      "id": "2",
-      "name": "Plan Mensual",
-      "costo": "79.90"
-    },
-    {
-      "id": "3",
-      "name": "Plan Trimestral",
-      "costo": "109.90"
-    }
+    { "id": "1", "name": "Plan Semanal", "costo": "29.90" },
+    { "id": "2", "name": "Plan Mensual", "costo": "79.90" },
+    { "id": "3", "name": "Plan Trimestral", "costo": "109.90" }
   ],
   "reservations": [
     {
@@ -105,6 +255,13 @@
       "cantDate": "Esta reserva es válida por 7 días (Plan Semanal).",
       "scooterId": "1",
       "userId": "1",
+      "suscriptionId": "1"
+    },
+    {
+      "id": "2",
+      "cantDate": "Esta reserva es válida por 7 días (Plan Semanal).",
+      "scooterId": "2",
+      "userId": "2",
       "suscriptionId": "1"
     }
   ]
